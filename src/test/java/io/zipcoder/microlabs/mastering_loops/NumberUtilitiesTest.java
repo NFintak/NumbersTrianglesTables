@@ -184,7 +184,7 @@ public class NumberUtilitiesTest {
     @Test
     public void testGetEvenNumbers() {
         // : Given
-        String expected = "5791113151719";
+        String expected = "681012141618"; //Nate fixed this test
         int start = 5;
         int stop = 20;
 
@@ -198,7 +198,7 @@ public class NumberUtilitiesTest {
     @Test
     public void testGetOddNumbers() {
         // : Given
-        String expected = "681012141618";
+        String expected = "5791113151719"; //Nate fixed this this
         int start = 5;
         int stop = 20;
         int step = 5;
